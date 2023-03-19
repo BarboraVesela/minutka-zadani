@@ -47,3 +47,22 @@ body {
 .alarm--ring {
   animation: ring 100ms 50;
 }
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin: auto
+}
+
+.button {
+  display: flex;
+  margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: red;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: white;
+  border-color: red;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
